@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+  <meta charset="UTF-8"/>
+  <title>Weather API</title>
+  <link href="assets/css/styles.css" rel="stylesheet"/>
+</head>
+<body>
+  <div id="wrapper">
+    <header>
+      <h1>Welcome to the Weather API</h1>
+      <div id="nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Gallery</a></li>
+        </ul>
+      </div>
+    </header>
+    <section id="weathersetup">
+      <div id="leftside">
+        <h1>Weather in your Area</h1>
+        <div id="weatherwidget">
+          <button class="button">Click</button>
+          <div id="temp"></div>
+          <div id="icon"><img src="http://dummyimage.com/200x200/4d494d/686a82.gif&amp;text=placeholder+image" alt=""/></div>
+        </div>
+      </div>
+      <div id="rightside"></div>
+    </section>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="assets/js/weather.js"></script>
+</body>
