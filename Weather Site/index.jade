@@ -25,9 +25,12 @@ body
 		section#weathersetup
 			#leftside
 				h1 Weather in your Area
-				
+				h2 Input your zipcode
+				input#zip(type="text")
+				button#btn(onclick="getUserInput()") Submit
+
 				#weatherwidget
-					button.button Click
+
 					#temp
 
 					#icon
