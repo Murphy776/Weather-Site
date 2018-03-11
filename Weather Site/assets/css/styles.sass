@@ -30,37 +30,49 @@ header
 	height: 500px
 	position: relative
 
-
+/* Left side of the Weather Panel for general information about weather passed by user */
 #leftside
-	background: blue 
+	background: linear-gradient(to top left, #00ffcc 0%, #0066ff 100%)
 	position: relative
 	z-index: 1
 	height: 100%
 	width: 50%
-
+	text-align: center
+	float: left
 
 #weatherwidget
-	width: 400px
-	height: 400px
-	background-color: white
+	width: 300px
+	height: 300px
 	display: block
-	color: #000
+	color: #fff
 	margin: 0 auto
+	position: relative
 	h1
 		color: red
-	#temp
-		font-size: 20pt
+		font-size: 2.5rem
 		text-align: center
-
+		margin-bottom: -30px
+	#temp
+		h3
+			font-size: 2rem
+			text-align: center
 	#icon
-		width: 100px
-		height: 100px
+		width: 75px
+		height: 75px
 		margin: auto
 
 		img
 			margin: 0 auto
-			width: 100px
-			height: 100px	
+			width: 75px
+			height: 75px	
 
+/* Right Side of weather panel with more specific information about weather passed by user */
+
+#rightside
+	position: relative
+	background: linear-gradient(to top right, #00ffcc 0%, #0066ff 100%)
+	width: 50%
+	height: 100%
+	float: right
 
 
